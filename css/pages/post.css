@@ -1,0 +1,22 @@
+.blog-post-title {
+  margin-bottom: 1rem;
+}
+.blog-post-cover {
+  margin-top: 1rem;
+}
+
+.blog-post-list {
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: rgb(229, 237, 241);
+}
+
+.blog-post-list li {
+  line-height: 1.75rem;
+  margin: 0.5rem 1.25rem;
+}
+
+.blog-post-description {
+  text-align: justify;
+  line-height: 1.5rem;
+}

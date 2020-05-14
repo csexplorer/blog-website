@@ -1,0 +1,33 @@
+.posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 1rem;
+}
+
+.card {
+  padding: 0;
+  justify-content: flex-start;
+}
+
+.card-body {
+  align-items: start;
+}
+
+.card-description {
+  text-align: justify;
+}
+
+.post-img {
+  padding: 0;
+  box-shadow: none;
+}
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 1.5rem;
+}
+
+.card-footer a {
+  text-decoration: none;
+  color: #2da7e2;
+}

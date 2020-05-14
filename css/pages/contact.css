@@ -1,0 +1,59 @@
+.content-wrapper {
+  grid-template-columns: 1fr;
+  grid-template-areas: 'mn';
+}
+body {
+  background-color: #fff;
+}
+
+.contact-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1.25rem;
+  color: #263843;
+}
+
+.form-group label {
+  margin-bottom: 0.75rem;
+  display: inline-block;
+}
+
+.message,
+.theme {
+  grid-column: 1 / 3;
+}
+
+.form-title {
+  text-align: center;
+}
+.message textarea {
+  padding: 0.8rem;
+}
+
+.form-control {
+  width: 100%;
+  min-height: 2.25rem;
+  font-size: 1rem;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #dcdcdc;
+  outline: none;
+}
+
+.form-control:active,
+.form-control:focus {
+  border: none;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.15);
+}
+
+.submit-btn {
+  justify-self: center;
+  grid-column: 1 / 3;
+  padding: 0.75rem 2rem;
+  text-transform: uppercase;
+  background-color: #2da7e2;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  outline: none;
+}

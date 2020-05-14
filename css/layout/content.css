@@ -1,0 +1,24 @@
+@import './sidebar.css';
+@import '../card.css';
+
+main {
+  grid-area: mn;
+}
+
+.content-wrapper {
+  grid-area: cn;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: 'mn' 'sd';
+  grid-gap: 1.25rem;
+}
+
+@media (min-width: 992px) {
+  .content-wrapper {
+    grid-area: cn;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-areas: 'mn mn mn mn mn sd sd sd';
+    grid-gap: 1.25rem;
+  }
+}
